@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		TextView texto= (TextView) this.findViewById(R.id.texto1);
+		texto.setText("Branch 1");
 	}
 
 	@Override
